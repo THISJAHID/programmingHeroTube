@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>PH Tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container mx-auto">
+    <section>
+        <header>
+            <nav>
+
+                <div class="navbar bg-red-300 mt-8">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Item 1</a></li>
+                          <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          </li>
+                          <li><a>Item 3</a></li>
+                        </ul>
+                      </div>
+                      <a class=" text-xl" href="index.html"> <img src="./img/logo.png" alt=""></a>
+                  
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                       
+                    </div>
+                    <div class="navbar-end">
+                    
+                      <a class="btn p-xl-1 hover:bg-red-500 hover:text-white" href="blog.html">Blog</a>
+                    </div>
+                  </div>
+
+            </nav>
+        </header>
+    </section>
+    <section>
+       
+        <div class="blog_section grid grid-cols-1 ">
+            <div class="collapse">
+                <input type="checkbox" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Discuss the scope of var, let, and const
+                </div>
+                <div class="collapse-content bg-base-100"> 
+                  <p>in javascript user can  declared three variable keywords such as <span class="text-purple-500">var, let, const</span> the scop of <span class="text-purple-500">var, let, const</span> are discuss below. </p>
+                  <p><span class="font-bold">VAR:</span> var variable is a global variable that can be called from outside the function.  It means variables defined outside the function can be accessed globally</p>
+                  <p><span class="font-bold">LET:</span>
+                    A let variable is a block type variable, which cannot be called outside a specific block</p>
+                  <p><span class="font-bold">CONST:</span> When users declare a const variable, they need to initialize it, otherwise, it returns an error. The user cannot update the const variable once it is declared. </p>
+                </div>
+              </div>
+        </div>
+        <hr>
+        <div class="blog_section grid grid-cols-1 ">
+            <div class="collapse">
+                <input type="checkbox" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Tell us the use cases of null and undefined?
+                </div>
+                <div class="collapse-content bg-base-100"> 
+                  <p><span class="font-bold">Null:</span> The primitive type null indicates the intentional absence of a value. Therefore, in JavaScript, programmers often assign null to a variable to denote that the variable is declared and initialized and currently doesn’t hold a value. Still, a value can be expected in the future</p>
+                  <br>
+                  <p><span class="font-bold">Undefine:</span> undefined is a primitive value automatically assigned by JavaScript to indicate the unintentional absence of any object value</p>
+                </div>
+              </div>
+        </div>
+        <hr>
+        <div class="blog_section grid grid-cols-1 ">
+            <div class="collapse">
+                <input type="checkbox" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What do you mean by REST API?
+                </div>
+                <div class="collapse-content bg-base-100"> 
+                  <p>REST APIs are a common topic of conversation in the web development community. While many are debating how useful the APIs functionality is, others are simply trying to understand what it means and how REST relates to RESTful.
+
+                    This is an important topic to know for developers jumping into the industry and will help you understand the modern state of client/server data architecture.
+                    
+                    Today, we’ll demystify REST APIs by explaining what it is, how it’s different from other HTTP APIs, and for which applications you should use it with.</p>
+                </div>
+              </div>
+        </div>
+        <hr>
+
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
